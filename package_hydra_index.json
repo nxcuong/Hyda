@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/nxcuong/Hyda/raw/main/HydaV1.0.0.zip",
           "archiveFileName": "HydaV1.0.0.zip",
-          "checksum": "SHA-256:26D1665F0E4D0F695F2DA79ADC5FC13BE2F3B8B1FCA643265C186C13D8CB3FC1",
+          "checksum": "SHA-256:C16B48C0A1C23BCBBD84F3590C9155283DFCB05D47F9AEFCB06C5A076EA23889",
           "size": "247",
           "boards": [
             { "name": "Hyda_0810" }
