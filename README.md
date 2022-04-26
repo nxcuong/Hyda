@@ -9,6 +9,7 @@ VXL đã được nạp bootloader của arduino mega2560, do đó lập trình 
 Thiết kế: Được thiết kế để điều khiển các van điện từ thủy lực (hydraulic solenoid valves) trực tiếp mà không cần sử dụng rơ le trung gian.
 
 Tổng quan bo mạch:
+
     Nguồn cấp điêu khiển 1A: 24VDC
     
     Nguồn cấp tải làm việc: Max 30A có bảo vệ ngược cực, tích hợp công tắc tổng (Main switch)
