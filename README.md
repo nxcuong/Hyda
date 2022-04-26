@@ -6,8 +6,11 @@ GIỚI THIỆU
 Hyda0810 là bo mạch đầu tiên thuộc dòng hyda, dựa trên vi xử lý mega 2560 của microchip.
 VXL đã được nạp bootloader của arduino mega2560, do đó lập trình hoàn toàn tương tự.
 
+Thiết kế: Được thiết kế để điều khiển các van điện từ thủy lực (hydraulic solenoid valves) trực tiếp mà không cần sử dụng rơ le trung gian.
+
 Tổng quan bo mạch:
-    Nguồn cấp: 24VDC
+    Nguồn cấp điêu khiển 1A: 24VDC
+    Nguồn cấp tải làm việc: Max 30A có bảo vệ ngược cực, tích hợp công tắc tổng (Main switch)
     Kênh DI: số lượng 08 kênh 24V DC
     Kênh DO: số lượng 08 kênh 24VDC
       - cấu hình ON/OFF đóng tải lên tới 5A
