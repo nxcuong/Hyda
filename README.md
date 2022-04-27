@@ -38,4 +38,23 @@ Tổng quan bo mạch:
     Cổng UART: 01 cổng kết nối RS485 hoặc RS232
     
     
+ LẬP TRÌNH
+ 
+ Bước 1. Cài đặt phần mềm Arduino IDE: https://www.arduino.cc/en/software
+ 
+ Bước 2. Mở chương trình arduino ide, trong phần File/preference copy và paste đường dẫn sau vào phần Additional boards manager URLs
+ 
+ https://raw.githubusercontent.com/nxcuong/Hyda/main/package_hydra_index.json
+ Nhấn OK để hoàn tất.
+ 
+ Bước 3. Vào Tools/Board manager kéo thanh trượt xuống phía dưới tìm tới Hyda Family, sau đó chọn Install. nhấn closed sau khi cài đặt xong.
+ 
+ Bước 4. Chọn mạch lập trình:
+ 
+ Tools/Board/Hyda boards/Hyda
+ 
+ Tools/Hyda board/Hyda0810
+ 
+ Quá trình thêm bo mạch hoàn tất.
+
       
