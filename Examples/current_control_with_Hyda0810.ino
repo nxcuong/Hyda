@@ -1,10 +1,10 @@
 /* hyda0810 currrent control on DO9
  * Current setpoint by digital input
- * DI1 = 200mA
- * DI2 = 400mA
- * DI3 = 600mA
- * DI4 = 800mA
- * No digital input = 0mA
+ * DI1 = 0mA
+ * DI2 = 200mA
+ * DI3 = 450mA
+ * DI4 = 600mA
+ * DI5 = 700mA
  * 
  */
 //=================================================================
@@ -16,7 +16,7 @@
 //=================================================================
 //Variables
 int I_avg = 0;  //average current out of DO10
-movingAvg Isen(65); //average 16 values
+movingAvg Isen(65); //average 65 values
 double setPoint, inPut, outPut;
 PID PID10(&inPut, &outPut, &setPoint, 2.0, 25.5, 0, P_ON_E, DIRECT);  //pid class
 
