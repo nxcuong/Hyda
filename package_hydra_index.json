@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "hyda boards",
+      "maintainer": "deMen Nguyen",
+      "websiteURL": "https://github.com/nxcuong/Hyda",
+      "email": "nxcuongbk@gmail.com",
+      "help": {
+        "online": "https://github.com/nxcuong/Hyda"
+      },
+      "platforms": [
+        {
+          "name": "Hyda family",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/nxcuong/Hyda"
+          },
+          "url": "https://github.com/nxcuong/Hyda/raw/main/HydaV1.0.1.zip",
+          "archiveFileName": "HydaV1.0.1.zip",
+          "checksum": "SHA256: A6B0B9BF44D4F6857A5CCEADBC814CEF7A19A1E8092B54417141756A586BE8D4",
+          "size": "228",
+          "boards": [
+            { "name": "Hyda_0810" },
+            { "name": "Hyda_1212_pro" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino8"
+            }
+          ]
+        }
+
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
