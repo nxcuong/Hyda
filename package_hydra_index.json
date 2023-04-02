@@ -23,7 +23,7 @@
           "size": "270",
           "boards": [
             { "name": "Hyda_0810" },
-            { "name": "Hyda_1212_pro" }
+            { "name": "Hyda_1212_pro" },
           ],
           "toolsDependencies": [
             {
